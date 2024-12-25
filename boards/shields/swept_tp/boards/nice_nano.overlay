@@ -1,7 +1,5 @@
 #include <dt-bindings/led/led.h>
 
-#ifndef MOUSE_PS2_ALT_PINS
-
 &pinctrl {
     spi3_default: spi3_default {
         group1 {
@@ -46,5 +44,3 @@
         zmk,underglow = &led_strip;
     };
 };
-
-#endif  // MOUSE_PS2_ALT_PINS

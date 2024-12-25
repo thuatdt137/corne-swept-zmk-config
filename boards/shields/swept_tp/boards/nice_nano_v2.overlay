@@ -11,8 +11,6 @@
 // should also remove the entry in `zmk-config-example/build.yaml` that uses
 // it.
 
-#ifndef MOUSE_PS2_ALT_PINS
-
 &pinctrl {
     spi3_default: spi3_default {
         group1 {
@@ -57,5 +55,3 @@
         zmk,underglow = &led_strip;
     };
 };
-
-#endif  // MOUSE_PS2_ALT_PINS
