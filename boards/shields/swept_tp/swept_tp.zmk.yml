@@ -1,0 +1,15 @@
+file_format: "1"
+id: swept_tp
+name: Swept TP
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+  - studio
+siblings:
+  - swept_tp_left
+  - swept_tp_right
