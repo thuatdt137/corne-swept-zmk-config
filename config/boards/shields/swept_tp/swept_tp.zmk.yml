@@ -4,11 +4,8 @@ name: Swept TP
 type: shield
 url: https://github.com/foostan/crkbd/
 requires: [pro_micro]
-exposes: [nice_view_header]
 features:
   - keys
-  - display
-  - underglow
 siblings:
   - swept_tp_left
   - swept_tp_right
