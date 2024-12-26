@@ -1,0 +1,30 @@
+config SPI
+    default y 
+
+if SHIELD_SWEPT_LEFT
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Swept CT"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SWEPT_LEFT || SHIELD_SWEPT_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
+
+if ZMK_BACKLIGHT
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif # ZMK_BACKLIGHT
+

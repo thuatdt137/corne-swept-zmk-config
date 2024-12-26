@@ -1,0 +1,19 @@
+file_format: "1"
+id: swept_ct
+name: Swept CT
+type: shield
+url: https://github.com/lynnlee0522/Newton1
+requires:
+  - pro_micro
+exposes:
+  - i2c_oled
+features:
+  - keys
+  - display
+  - encoder
+  - underglow
+  - studio
+  - pointer
+siblings:
+  - swept_left
+  - swept_right
