@@ -14,7 +14,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: swept_tp_left nice_view
+    shield: swept_tp_left
   - board: nice_nano_v2
     shield: swept_tp_right
   - board: nice_nano_v2

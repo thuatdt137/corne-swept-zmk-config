@@ -25,14 +25,6 @@
         ;
 };
 
-&nice_view_spi {
-  status = "disable";
-};
-
-&nice_view {
-  status = "disable";
-};
-
 &i2c0 {
     status = "okay";
     glidepoint0: glidepoint@2a {
