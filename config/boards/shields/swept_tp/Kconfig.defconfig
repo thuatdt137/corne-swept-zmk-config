@@ -6,7 +6,10 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif
+config ZMK_USB
+    default y
+
+endif # SHIELD_SWEPT_TP_LEFT
 
 if SHIELD_SWEPT_TP_LEFT || SHIELD_SWEPT_TP_RIGHT
 
@@ -56,8 +59,9 @@ config LV_Z_BITS_PER_PIXEL
 
 choice LV_COLOR_DEPTH
     default LV_COLOR_DEPTH_1
+
 endchoice
 
 endif # LVGL
 
-endif
+endif # SHIELD_SWEPT_TP_LEFT || SHIELD_SWEPT_TP_RIGHT
